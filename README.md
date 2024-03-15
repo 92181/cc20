@@ -7,13 +7,14 @@ Various examples are provided such as...
 • network.
 • psuedo random number generator.
 
-    one
-    two
-        sub-one
-        sub-two
+* Item 1
+* Item 2
+* Item 3
+  * Sub Item A
+  * Sub Item B
 
-Item Zed
-
-    Nested Item
-    Nested Item
-
+- Item 1
+- Item 2
+- Item 3
+  - Sub Item 1
+  - Sub Item 2
