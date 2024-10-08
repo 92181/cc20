@@ -18,6 +18,9 @@ unsigned int k[16]={255147747,473982973,594997402,362904909,739702246,1052196548
 // Plain Input (125);
 unsigned char e[128]="ChaCha20 Is A Stream Cipher Known For It's Good Diffusion & Simplicity. This Implementation Focusses On Absolute Performance.";
 
+// Generate CC20 Key;
+ck(k,j,10);
+
 // Encryption;
 cc(k,e,e+125);printf("Encrypted... \n");i=e;while(i<e+125){printf("%u ",*i);i+=1;};printf("\n\n");
 
