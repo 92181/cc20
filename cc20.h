@@ -60,7 +60,7 @@ static inline void cs(unsigned int *k,unsigned char *o,unsigned char *l)
     {
         *(unsigned int*)s=*(unsigned int*)o^*k;k+=1;
 
-        if(o<l){*o=*s;}if(o+1<l){*(o+1)=*(s+1);}if(o+2<l){*(o+2)=*(s+2);}if(o+3<l){*(o+3)=*(s+3);}
+        if(o<l){*o=*s;if(o+1<l){*(o+1)=*(s+1);if(o+2<l){*(o+2)=*(s+2);if(o+3<l){*(o+3)=*(s+3);}}}}
 
         o+=4;
     };
